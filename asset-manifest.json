@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/raven-digital/static/css/main.5f98d9bc.css",
+    "main.js": "/raven-digital/static/js/main.cc3154a9.js",
+    "static/media/intro-img.png": "/raven-digital/static/media/intro-img.88374f82282990c646a1.png",
+    "static/media/FiraSans-ExtraBold.ttf": "/raven-digital/static/media/FiraSans-ExtraBold.4cefd111bf6571164e73.ttf",
+    "static/media/FiraSans-Bold.ttf": "/raven-digital/static/media/FiraSans-Bold.b2c1d356b236acbad8ef.ttf",
+    "static/media/FiraSans-Medium.ttf": "/raven-digital/static/media/FiraSans-Medium.d11d9e14e00fc1a96751.ttf",
+    "static/media/FiraSans-Regular.ttf": "/raven-digital/static/media/FiraSans-Regular.f4eb295ecc2fb842d61c.ttf",
+    "static/media/FiraSans-Light.ttf": "/raven-digital/static/media/FiraSans-Light.7ece67e11e181a7292ef.ttf",
+    "static/media/test-1.png": "/raven-digital/static/media/test-1.570e269ac261ab62d1fa.png",
+    "static/media/test-3.png": "/raven-digital/static/media/test-3.bbe5838acd2b182742f6.png",
+    "static/media/test-2.png": "/raven-digital/static/media/test-2.239684819ca35d7f0c47.png",
+    "static/media/work-5.jpg": "/raven-digital/static/media/work-5.63c3bd042888deef7c77.jpg",
+    "static/media/team-1.jpg": "/raven-digital/static/media/team-1.a4071e6b71f424c031fc.jpg",
+    "static/media/blog-1.png": "/raven-digital/static/media/blog-1.d6be60aea800f0381c8b.png",
+    "static/media/team-2.jpg": "/raven-digital/static/media/team-2.00349aeb59974b42b6d9.jpg",
+    "static/media/team-3.jpg": "/raven-digital/static/media/team-3.faa7eab25cfa74988924.jpg",
+    "static/media/work-4.jpg": "/raven-digital/static/media/work-4.25741fe10e61b993ba69.jpg",
+    "static/media/blog-2.jpg": "/raven-digital/static/media/blog-2.1b5476dd48daa29d7afd.jpg",
+    "static/media/work-1.jpg": "/raven-digital/static/media/work-1.75f7dc69b9689e25e92d.jpg",
+    "static/media/work-3.jpg": "/raven-digital/static/media/work-3.410a54e097bcc9a3083f.jpg",
+    "static/media/work-2.jpg": "/raven-digital/static/media/work-2.ab5a8e1b6a8f755e4808.jpg",
+    "static/media/blog-3.jpg": "/raven-digital/static/media/blog-3.ea3c5d51d692dd141999.jpg",
+    "static/media/team-4.jpg": "/raven-digital/static/media/team-4.9baac6d7987680f89584.jpg",
+    "static/media/logo.svg": "/raven-digital/static/media/logo.29eeb6de54688bd40576d7ee6412b2dd.svg",
+    "index.html": "/raven-digital/index.html",
+    "static/media/search.svg": "/raven-digital/static/media/search.17ee780a194b75c3bed27670f5127fc6.svg",
+    "main.5f98d9bc.css.map": "/raven-digital/static/css/main.5f98d9bc.css.map",
+    "main.cc3154a9.js.map": "/raven-digital/static/js/main.cc3154a9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5f98d9bc.css",
+    "static/js/main.cc3154a9.js"
+  ]
+}
