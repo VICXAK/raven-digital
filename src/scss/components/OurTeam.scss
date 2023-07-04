@@ -1,0 +1,21 @@
+@use "../common/common";
+
+.team {
+  .container {
+    @include common.container;
+    .team-wrap {
+      @include common.d-grid(12, 510px);
+      gap: 26px;
+      margin-bottom: 152px;
+    }
+    h2 {
+      text-align: center;
+      color: common.$white;
+      font-size: 48px;
+      font-family: common.$fontFamily;
+      font-weight: 500;
+      line-height: normal;
+      margin-bottom: 124px;
+    }
+  }
+}

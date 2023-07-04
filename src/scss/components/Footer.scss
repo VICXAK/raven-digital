@@ -1,0 +1,42 @@
+@use "../common/common";
+
+.footer {
+  background-color: common.$footerBg;
+  .container {
+    @include common.container;
+  }
+
+  &-wrap {
+    padding: 73px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &__logo {
+      margin-bottom: 38px;
+    }
+    &__content {
+      max-width: 560px;
+      width: 100%;
+      color: common.$footer;
+      text-align: center;
+      font-size: 18px;
+      font-family: common.$fontFamily;
+      font-weight: 300;
+      line-height: 28px;
+      margin-bottom: 42px;
+    }
+
+    &__social {
+      margin-bottom: 62px;
+    }
+    &__copyright {
+      color: common.$white;
+      font-size: 15px;
+      font-family: common.$fontFamily;
+      font-weight: 400;
+      line-height: normal;
+      letter-spacing: -0.205px;
+    }
+  }
+}

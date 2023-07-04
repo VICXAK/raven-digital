@@ -1,0 +1,19 @@
+@use "../common/common";
+
+.footer-nav {
+  margin-bottom: 78px;
+  &__list {
+    display: flex;
+  }
+  &__link {
+    color: common.$white;
+    font-size: 18px;
+    font-family: common.$fontFamily;
+    font-weight: 700;
+    line-height: normal;
+  }
+
+  li:not(:last-child) .footer-nav__link {
+    margin-right: 98px;
+  }
+}

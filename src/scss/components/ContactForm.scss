@@ -1,0 +1,80 @@
+@use "../common/common";
+
+.contact__form {
+  grid-column: span 6;
+  max-width: 586px;
+  width: 100%;
+
+  form {
+    display: flex;
+    flex-direction: column;
+    input,
+    textarea {
+      color: common.$white;
+      font-size: 16px;
+      font-family: common.$fontFamily;
+      font-weight: 400;
+      outline: none;
+      border: none;
+      border-bottom: 1px solid #536a82;
+      background-color: common.$bg;
+      width: 100%;
+      margin-bottom: 25px;
+      padding: 0 9px 11px;
+      resize: none;
+
+      &::placeholder {
+        color: common.$input;
+        font-size: 18px;
+        font-family: common.$fontFamily;
+        font-weight: 500;
+        line-height: normal;
+      }
+    }
+
+    textarea {
+      margin-bottom: 0;
+    }
+  }
+  &-name,
+  &-lastname,
+  &-email,
+  &-msg {
+    display: flex;
+    flex-direction: column;
+    span {
+      width: fit-content;
+      order: -1;
+      color: common.$white;
+      font-size: 18px;
+      font-family: common.$fontFamily;
+      font-weight: 500;
+      line-height: normal;
+      margin-bottom: 28px;
+      display: block;
+      border-bottom: 2px solid transparent;
+      transition: border-bottom 0.3s;
+    }
+  }
+  &-msg {
+    margin-bottom: 61px;
+  }
+
+  &-name,
+  &-lastname,
+  &-email {
+    input:focus + span {
+      border-bottom: 2px solid common.$blue;
+    }
+  }
+
+  &-msg {
+    textarea:focus + span {
+      border-bottom: 2px solid common.$blue;
+    }
+  }
+  &-btn {
+    width: fit-content;
+    margin-bottom: 0;
+  }
+}

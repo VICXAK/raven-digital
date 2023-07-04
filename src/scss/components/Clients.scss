@@ -1,0 +1,25 @@
+@use "../common/common";
+
+.clients {
+  background-color: common.$footerBg;
+  padding: 64px 0;
+  margin-bottom: 154px;
+  .container {
+    @include common.container;
+  }
+
+  &__wrap {
+    @include common.d-grid(12);
+    justify-items: center;
+  }
+
+  &__title {
+    color: common.$white;
+    font-size: 48px;
+    font-family: common.$fontFamily;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 25px;
+    text-align: center;
+  }
+}

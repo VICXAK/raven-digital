@@ -1,0 +1,15 @@
+@use "../common/common";
+
+.button {
+  padding: 9px 25px;
+  border-radius: 30px;
+  background-color: common.$blue;
+  color: common.$white;
+  border: none;
+  cursor: pointer;
+  font-family: common.$fontFamily;
+  font-weight: 400;
+  line-height: 28px;
+  font-size: 18px;
+  // margin-bottom: 60px;
+}

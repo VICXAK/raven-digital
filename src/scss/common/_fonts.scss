@@ -1,0 +1,17 @@
+$fontFamily: "Fira Sans";
+$firaSans: "FiraSans";
+$weightArr: (
+  "Light": 300,
+  "Regular": 400,
+  "Medium": 500,
+  "Bold": 700,
+  "ExtraBold": 900,
+);
+
+@each $el, $elWeight in $weightArr {
+  @font-face {
+    font-family: "Fira Sans";
+    src: url(../../assets/fonts/#{$firaSans}-#{$el}.ttf);
+    font-weight: $elWeight;
+  }
+}

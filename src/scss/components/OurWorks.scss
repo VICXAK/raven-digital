@@ -1,0 +1,47 @@
+@use "../common/common";
+
+.our-works {
+  margin-bottom: 113px;
+  .container {
+    @include common.container;
+  }
+  &__wrap {
+    @include common.d-grid(12);
+    gap: 21px;
+  }
+  &__title {
+    text-align: center;
+    font-size: 48px;
+    color: common.$white;
+    font-weight: 500;
+    font-family: common.$fontFamily;
+    margin-bottom: 79px;
+  }
+
+  &__impress {
+    grid-column: 1 / 5;
+    grid-row: 2 / 4;
+    justify-self: center;
+    align-self: center;
+
+    h4 {
+      color: common.$white;
+      font-size: 32px;
+      font-family: common.$fontFamily;
+      font-weight: 700;
+      line-height: 143%;
+      letter-spacing: 0.32px;
+      text-transform: uppercase;
+      margin-bottom: 26px;
+    }
+
+    p {
+      color: common.$white;
+      font-size: 20px;
+      font-family: common.$fontFamily;
+      font-weight: 300;
+      line-height: 28px;
+      margin-bottom: 44px;
+    }
+  }
+}

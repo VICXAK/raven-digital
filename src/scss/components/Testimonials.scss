@@ -1,0 +1,44 @@
+@use "../common/common";
+
+.testimonials {
+  .container {
+    @include common.container;
+  }
+  &-wrap {
+    display: flex;
+    align-items: center;
+    margin-bottom: 210px;
+
+    &__slider {
+      width: 100%;
+      position: relative;
+      height: 415px;
+      overflow: hidden;
+      &-btn {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .btn {
+          width: 83px;
+          height: 2px;
+          margin: 45px;
+          transform: rotate(90deg);
+          background-color: common.$white;
+
+          &.active {
+            background-color: common.$blue;
+          }
+        }
+
+        span {
+          color: common.$white;
+          font-size: 32px;
+          font-family: common.$fontFamily;
+          font-weight: 700;
+          line-height: normal;
+        }
+      }
+    }
+  }
+}

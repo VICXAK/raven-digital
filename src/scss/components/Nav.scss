@@ -1,0 +1,29 @@
+@use "../common/common";
+
+.header__nav {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 264px;
+
+  &-wrap {
+    display: flex;
+  }
+
+  &-list {
+    display: flex;
+    margin-right: 96px;
+
+    &-item {
+      font-family: common.$fontFamily;
+      font-weight: 500;
+      font-size: 20px;
+      color: common.$white;
+
+      &:not(:first-child) {
+        margin-left: 50px;
+      }
+    }
+  }
+}

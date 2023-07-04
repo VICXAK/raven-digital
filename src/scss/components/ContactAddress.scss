@@ -1,0 +1,104 @@
+@use "../common/common";
+
+.contact__address {
+  grid-column: 8 / -1;
+  max-width: 290px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  font-style: normal;
+
+  &-title {
+    display: flex;
+    align-items: center;
+    color: common.$white;
+    font-size: 18px;
+    font-family: common.$fontFamily;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 26px;
+    img {
+      margin-right: 15px;
+    }
+  }
+
+  &-text {
+    color: common.$address;
+    font-size: 18px;
+    font-family: common.$fontFamily;
+    font-weight: 500;
+    line-height: normal;
+  }
+}
+.contact__mobile {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 67px;
+
+  &-title {
+    display: flex;
+    align-items: center;
+    color: common.$white;
+    font-size: 18px;
+    font-family: common.$fontFamily;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 26px;
+
+    img {
+      margin-right: 15px;
+    }
+  }
+
+  &-number {
+    display: flex;
+    flex-direction: column;
+
+    &-wrap {
+      display: flex;
+      align-items: center;
+      a {
+        color: common.$address;
+        font-size: 18px;
+        font-family: common.$fontFamily;
+        font-weight: 500;
+        line-height: normal;
+        margin-right: 30px;
+      }
+    }
+    &-wrap:not(:last-child) {
+      margin-bottom: 13px;
+    }
+  }
+  &-btn {
+    width: 107px;
+    height: 28px;
+    padding: 0;
+    margin-bottom: 0;
+  }
+}
+
+.contact__email {
+  margin-bottom: 67px;
+  a {
+    color: common.$address;
+    font-size: 18px;
+    font-family: common.$fontFamily;
+    font-weight: 500;
+    line-height: normal;
+  }
+  &-title {
+    display: flex;
+    align-items: center;
+    color: common.$white;
+    font-size: 18px;
+    font-family: common.$fontFamily;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 26px;
+
+    img {
+      margin-right: 15px;
+    }
+  }
+}
